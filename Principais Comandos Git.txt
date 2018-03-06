@@ -1,0 +1,35 @@
+
+
+#Crie uma pasta para seu projeto
+mkdir NOME_DO_PROJETO
+
+#Inicializar um novo repositório
+git init
+
+#Criar um arquivo README.MD com qualquer conteúdo
+
+#Verifica o status do repositório
+git status
+
+#Adicionar o arquivo
+git add NOME_DO_ARQUIVO
+
+#Commitar as alterações
+git commit -m "Mensagem de Commit"
+
+#Adicionar repositório remoto
+git remote add origin git@github.com:licensed/web.git
+
+#Enviar mudanças para o repositório remoto
+git push -u origin master
+
+#Caso haja erro, remover repositório remoto e adicionar novo repositório remoto https
+git remote rm origin
+git remote add origin https://github.com/licensed/web.git
+
+#Criar um novo branch, e trabalhar nele
+git checkout -b aposta
+
+
+#Atualizar repositório local com as informações do remoto
+git pull
