@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.header .content {
+  margin-top: 20px;
+}
+
+.header ul {
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.header ul li {
+  font-weight: 600;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.header ul li a {
+  transition: 0.5s;
+  padding: 10px 10px 6px 10px;
+  color: #000;
+}
+
+.header ul li a:hover {
+  border-bottom: 4px solid #f9014d;
+}
+
+.section {
+  margin-top: 10px;
+  width: 100%;
+  padding: 100px 0;
+  background-image: url('../image/webdesigner.jpg');
+  background-position: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
