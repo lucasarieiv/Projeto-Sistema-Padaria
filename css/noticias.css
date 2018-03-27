@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+.section-noticia {
+  background-color: #fff;
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.section-noticia .noticia-principal {
+  position: relative;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.noticia-principal > h1 {
+  font-size: 32px;
+  padding: 20px;
+  color: #f72364;
+}
+
+.noticia-principal  .img {
+  width: 100%;
+}
+.noticia-principal > figure {
+  color: #666666;
+}
+
+.noticia-principal figcaption {
+  color: #666666;
+  padding: 20px;
+}
