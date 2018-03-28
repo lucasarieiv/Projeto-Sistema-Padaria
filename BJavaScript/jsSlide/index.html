@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slide</title>
+	<meta charset="utf-8">
+
+	<script language="Javascript">
+
+		function iniciaSlide(){
+			max = 6;
+			min = 1;
+			fi=min;
+			carregarFoto("f1.jpg");
+		}
+
+		function carregarFoto(foto){
+			document.getElementById("moldura").style.backgroundImage="URL("+foto+")";
+		}
+
+		function prox(){
+			fi++;
+			carregarFoto("f"+fi+".jpg");
+		}
+
+	</script>
+
+	<style>
+
+		#moldura{
+			width:600px;
+			height:450px;
+			background-color:#eeeeee;
+			transition:background-image 2s;
+		}
+
+	</style>
+</head>
+<body onload="iniciaSlide()">
+	
+	<div id="moldura"></div>
+	<input type="button" value="Anterior">
+	<input type="button" value="Próximo" onclick="prox()">
+
+</body>
+</html>
