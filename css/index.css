@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+.banner {
+  /* width: 100%; */
+  background-image: url('../image/webdesigner.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 300px;
+}
+
+.banner h1 {
+  text-align: center;
+}
+
+.collaborators {
+  /* background-color: red; */
+  width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.collaborators article {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0px 10px 0px 10px;
+
+}
