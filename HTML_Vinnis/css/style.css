@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-
 .menu{
 	width: 100%;
 	height: 50px;
@@ -14,7 +13,7 @@
 	position: relative;
 }
 .menu ul li{
-	width: 335px;
+	width: 142px;
 	float: left;
 }
 .menu a{
@@ -41,9 +40,8 @@
 	border-bottom: solid 1px #ccc;
 }
 .menu ul ul li a{
-	background-color: #082a56;
+	background-color: #85c5db;
 }
-
 .tigre img{
 	position: absolute;
 	width: 30px;
@@ -51,8 +49,6 @@
 	left: 260px;
 	
 }
-
-
 label[for="bt_menu"]{
 	padding: 6px;
 	background-color: #222;
@@ -80,7 +76,7 @@ label[for="bt_menu"]{
 		transition: all .4s;
 	}
 	#bt_menu:checked ~ .menu{
-		margin-left: 0;
+		margin-left: 0.1px;
 	}
 	.menu ul li{
 	width: 100%;
@@ -99,4 +95,43 @@ label[for="bt_menu"]{
 	}
 }
 
+.btn{
+	width: 20px;
+	height: 30px;
+	cursor: pointer;
+	background-color:#b7b7ac;
+
+}
+#texto:focus{
+	border: solid 1px #2f4550 ;
+}
+
+#texto{
+	width: 210px;
+	height: 25px;
+	padding-top: 3px;
+	float: left;
+	font-family: 'Arial';
+	font-size: 15px;
+}
+#texto{
+	border: solid 1px #fff; 
+}
+.menu form{
+	padding-top: 12px;
+	padding-left: 40px;
+	top: 10px;
+	background-color:#043318 ;
+
+	
+}
+
+.tigre-left{
+	width: 30px;
+	position: absolute;
+	top: 10px;
+	background-color: #85c5db;
+	left: 1080px;
+	border: solid 1px #fff; 
+}
 
