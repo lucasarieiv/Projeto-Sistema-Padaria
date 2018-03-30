@@ -4,6 +4,7 @@
 	<title>...</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/js.js"></script>
 </head>
 <body>
 
@@ -28,7 +29,25 @@
 				</ul>
 			</li>
 			<li><a href="#">Contato</a></li>
+
 		</ul>
+
+		<form class="pesquisar">													  	
+				<input type="serach" name="text" list="historico" placeholder="Pesquisar Linguagem..." id="texto">
+				<img class="btn" src="icone/lupa.png" onclick="executar()">
+			
+
+
+			<datalist id="historico">
+				<option value="Python"></option>
+				<option value="HTML"></option>
+				<option value="CSS"></option>
+				<option value="Ruby"></option>
+			</datalist>	
+
+		</form>
+		<img class="tigre-left" src="icone/tigre.png">
+
 	</nav>
 
 
