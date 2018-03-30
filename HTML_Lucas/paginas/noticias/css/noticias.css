@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+.section-Noticia {
+  /* background-color: blue; */
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.section-Noticia .article-noticia h1 {
+  text-align: center;
+  font-size: 58px;
+  padding: 20px 0px 20px 0px;
+  color: #f72364;
+  border-bottom: 1px solid #666666;
+}
+
+.section-Noticia .article-noticia p {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 22px;
+  color: #666666;
+  letter-spacing: 1px;
+  line-height: 35px;
+
+}
