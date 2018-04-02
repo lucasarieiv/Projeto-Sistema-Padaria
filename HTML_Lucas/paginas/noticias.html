@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
     <link rel='stylesheet' type='text/css' href='../css/reset.css' />
     <link rel='stylesheet' type='text/css' href='../css/header.css' />
-    <link rel='stylesheet' type='text/css' href='../css/links.css' />
+    <link rel='stylesheet' type='text/css' href='../css/links-buttons.css' />
     <link rel='stylesheet' type='text/css' href='../css/comandos.css' />
     <link rel='stylesheet' type='text/css' href='../css/noticias.css' />
     <link rel='stylesheet' type='text/css' href='../css/footer.css' />
@@ -23,6 +23,31 @@
       </div>
     </header>
 
+    <div class="modal" id='formBox'>
+      <div class="modal-Content">
+        <header class='container'>
+          <a href="#" class='closebtn'>x</a>
+          <h2>Noticias</h2>
+        </header>
+
+        <form class="form-noticia" action="index.html" method="post">
+          <label for='titulo'>TÍTULO</label>
+          <input maxlength="50" type="text" id="titulo" />
+          <div id="feedback">
+
+          </div>
+
+          <label for='texto'>TEXTO</label>
+          <textarea maxlength="160" rows='4' cols='40' type="text" id="texto"></textarea>
+
+          <label for='pessoa'>SEU NOME</label>
+          <input maxlength="20" type="text" id="nome">
+
+          <input type="submit" value="SALVAR" id='salvar'>
+       </form>
+     </div>
+    </div>
+
     <section class='section-noticia'>
       <a href='noticias/noticia-1.html'>
         <article class="noticia-principal">
@@ -33,6 +58,8 @@
           </figure>
         </article>
       </a>
+
+      <a href="#formBox" class='btn-green button'><b>+</b> Noticia</a>
 
       <a href="#">
         <article class="noticias">
@@ -123,6 +150,6 @@
       </div>
     </footer>
 
-
+    <script src='../js/noticia.js'></script>
   </body>
 </html>
